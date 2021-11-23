@@ -1,0 +1,11 @@
+
+s
+java:S21847"BCast one of the operands of this addition operation to a "double".(ŒÒ·½şÿÿÿÿ8Óì’¨Î/H„RMINORZBUG
+˜
+java:S14887"`Immediately return this expression instead of assigning it to the temporary variable "distance".(ŒÒ·½şÿÿÿÿ8ã“¨Î/H‡RMINORZ
+CODE_SMELL
+m
+java:S1161":Add the "@Override" annotation above this method signature(ûİ¸8ú¶ù§Î/H›RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á¢¶H…RMINORZ
+CODE_SMELL

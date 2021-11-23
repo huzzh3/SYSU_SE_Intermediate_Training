@@ -1,0 +1,6 @@
+package dancingBug;
+
+public class DancingBugRunner extends Bug {
+	private int steps;
+    private int sideLength;
+}

@@ -1,0 +1,29 @@
+package imageProcessing;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ImageProcessorTest {
+
+	@Test
+	public void testShowChanelR() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testShowChanelG() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testShowChanelB() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testShowGray() {
+		fail("Not yet implemented");
+	}
+
+}

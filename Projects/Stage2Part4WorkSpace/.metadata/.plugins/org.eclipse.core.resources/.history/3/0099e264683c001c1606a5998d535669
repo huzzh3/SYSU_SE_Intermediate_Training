@@ -1,0 +1,12 @@
+package modifiedChameleonCritter;
+
+import info.gridworld.actor.Actor;
+import info.gridworld.actor.Critter;
+import info.gridworld.actor.Flower;
+import info.gridworld.grid.Location;
+
+import java.util.ArrayList;
+
+public class ModifiedChameleonCritter extends Critter {
+
+}

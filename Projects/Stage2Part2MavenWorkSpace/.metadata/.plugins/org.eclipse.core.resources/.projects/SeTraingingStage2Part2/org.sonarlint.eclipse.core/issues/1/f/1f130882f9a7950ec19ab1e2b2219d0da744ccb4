@@ -1,0 +1,6 @@
+
+\
+java:S1128"+Remove this unused import 'java.awt.Color'.(ùÈãÈøÿÿÿÿHðRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úß×ŠHïRMINORZ
+CODE_SMELL

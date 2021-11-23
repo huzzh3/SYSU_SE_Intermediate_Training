@@ -1,0 +1,8 @@
+package rockHound;
+
+import info.gridworld.actor.Critter;
+
+public class RockHound extends Critter {
+	
+	// RockHound would remove the rocks around
+}

@@ -1,0 +1,56 @@
+package sparseGridMap;
+
+import java.util.ArrayList;
+import java.util.Map;
+
+import info.gridworld.grid.AbstractGrid;
+import info.gridworld.grid.Location;
+
+public class SparseBoundedGridMap<E> extends AbstractGrid<E> {
+
+	// We use the map to store the element
+	private Map<Location, E> occupantMap;
+	
+	@Override
+	public E get(Location arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getNumCols() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getNumRows() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public ArrayList<Location> getOccupiedLocations() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isValid(Location arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public E put(Location arg0, E arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public E remove(Location arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

@@ -1,0 +1,14 @@
+
+‚
+java:S1192!"LDefine a constant instead of duplicating this literal "loc == null" 3 times.(‘Ú¸›8ëúğÊÎ/H¾
+RCRITICALZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–­£ãÿÿÿÿÿH¡RMINORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾úŸ’ÿÿÿÿÿ8¥ÂÙÊÎ/HöRMINORZ
+CODE_SMELL
+‘
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(Äœ«ùÿÿÿÿ8ŸäûÊÎ/Hé
+RMINORZ
+CODE_SMELL

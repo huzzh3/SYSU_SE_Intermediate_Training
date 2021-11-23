@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="java.awt.image.MemoryImageSource"/>
+    <fullyQualifiedTypeName name="java.awt.image.ImageProducer"/>
+    <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+    <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+    <fullyQualifiedTypeName name="imagereader.IImageIO"/>
+    <fullyQualifiedTypeName name="java.awt.Image"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="imagereader.IImageProcessor"/>
+    <fullyQualifiedTypeName name="java.awt.Graphics2D"/>
+</qualifiedTypeNameHistroy>

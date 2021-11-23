@@ -1,0 +1,56 @@
+
+m
+java:S1126"AReplace this if-then-else statement by a single return statement.(°ë»œHvRMINORZ
+CODE_SMELL
+
+java:S1104"QMake isEnd a static final constant or non-public and provide accessors if needed.(ˆàğüÿÿÿÿHzRMINORZ
+CODE_SMELL
+
+java:S1319‰"dThe type of "locs" should be an interface such as "List" rather than the implementation "ArrayList".(™ÑÈûÿÿÿÿ8ÅáÔÔ/H­RMINORZ
+CODE_SMELL
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÌôáûÿÿÿÿH}RMINORZ
+CODE_SMELL
+’	java:S116""cRename this field "NumberOfDirectionChoices" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÌÌ­üÿÿÿÿHiRMINORZ
+CODE_SMELL
+£
+java:S1319_"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÏÒéí8ÅáÔÔ/HªRMINORZ
+CODE_SMELL
+€
+java:S1104"PMake next a static final constant or non-public and provide accessors if needed.(äù…ğÿÿÿÿÿHxRMINORZ
+CODE_SMELL
+R
+java:S1125?"'Remove the unnecessary boolean literal.(¡Ö÷­HsRMINORZ
+CODE_SMELL
+m
+java:S11613":Add the "@Override" annotation above this method signature(âù†ô8ÅáÔÔ/H¢RMAJORZ
+CODE_SMELL
+^
+java:S1168b"+Return an empty collection instead of null.(¥¹ï8ÅáÔÔ/H¤RMAJORZ
+CODE_SMELL
+{
+java:S1104"PMake last a static final constant or non-public and provide accessors if needed.(†¢é–HyRMINORZ
+CODE_SMELL
+Z
+java:S1197""*Move the array designators [] to the type.(ËÌÌ­üÿÿÿÿHkRMINORZ
+CODE_SMELL
+{
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÌŠş¦HjRMAJORZ
+CODE_SMELL
+W
+java:S11257"'Remove the unnecessary boolean literal.(Á„•…ùÿÿÿÿHnRMINORZ
+CODE_SMELL
+…
+java:S1104"UMake stepCount a static final constant or non-public and provide accessors if needed.(×¹ËùÿÿÿÿH|RMINORZ
+CODE_SMELL
+s
+java:S1161‹":Add the "@Override" annotation above this method signature(œ€Íùÿÿÿÿ8ÅáÔÔ/H¨RMAJORZ
+CODE_SMELL
+r
+java:S1161~":Add the "@Override" annotation above this method signature(ä÷ç¨şÿÿÿÿ8ÅáÔÔ/H¦RMAJORZ
+CODE_SMELL
+„
+java:S1104"YMake crossLocation a static final constant or non-public and provide accessors if needed.(ÌŠş¦H{RMINORZ
+CODE_SMELL
+R
+java:S11259"'Remove the unnecessary boolean literal.(ÜôÓ‰HpRMINORZ
+CODE_SMELL

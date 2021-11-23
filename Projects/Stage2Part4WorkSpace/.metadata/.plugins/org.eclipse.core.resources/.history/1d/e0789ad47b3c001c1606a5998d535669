@@ -1,0 +1,11 @@
+package quickCrab;
+
+import java.awt.Color;
+
+public class QuickCrab extends CrabCritter {
+	
+	// Constructor, initialize the color to blue
+	public QuickCrab() {
+		setColor(Color.BLUE);
+	}
+}

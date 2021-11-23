@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="modifiedChameleonCritter.ModifiedChameleonCritter"/>
+    <fullyQualifiedTypeName name="info.gridworld.actor.Critter"/>
+    <fullyQualifiedTypeName name="info.gridworld.grid.Grid"/>
+    <fullyQualifiedTypeName name="quickCrab.CrabCritter"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="info.gridworld.actor.Actor"/>
+    <fullyQualifiedTypeName name="info.gridworld.actor.ActorWorld"/>
+    <fullyQualifiedTypeName name="jdk.vm.ci.code.Location"/>
+    <fullyQualifiedTypeName name="info.gridworld.actor.Rock"/>
+    <fullyQualifiedTypeName name="info.gridworld.grid.Location"/>
+    <fullyQualifiedTypeName name="info.gridworld.actor.Flower"/>
+    <fullyQualifiedTypeName name="info.gridworld.actor.Bug"/>
+</qualifiedTypeNameHistroy>

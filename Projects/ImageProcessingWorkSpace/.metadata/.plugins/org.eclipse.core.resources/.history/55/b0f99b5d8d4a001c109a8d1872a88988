@@ -1,0 +1,36 @@
+package imageProcessing;
+
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.image.FilteredImageSource;
+import java.awt.image.RGBImageFilter;
+
+import imagereader.IImageProcessor;
+
+public class ImplementImageProcessor implements IImageProcessor {
+
+	@Override
+	public Image showChanelB(Image arg0) {
+		ColorFilter redFilter = new ColorFilter(1);
+		return null;
+	}
+
+	@Override
+	public Image showChanelG(Image arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Image showChanelR(Image arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Image showGray(Image arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

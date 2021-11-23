@@ -1,0 +1,24 @@
+
+…
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒ¿ÔÌH±	RMINORZ
+CODE_SMELL
+…
+java:S2293i"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªõ¨‚Hµ	RMINORZ
+CODE_SMELL
+…
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªõ¨‚H³	RMINORZ
+CODE_SMELL
+‘	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àà˜¦üÿÿÿÿ8“ï³¦Î/HÄ	RMINORZ
+CODE_SMELL
+k
+java:S1161.":Add the "@Override" annotation above this method signature(¸°êíúÿÿÿÿH«	RMAJORZ
+CODE_SMELL
+¡
+java:S1319g"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ºï¿ØýÿÿÿÿH·	RMINORZ
+CODE_SMELL
+k
+java:S1161O":Add the "@Override" annotation above this method signature(­ßÊÐýÿÿÿÿH¯	RMAJORZ
+CODE_SMELL
+k
+java:S1161@":Add the "@Override" annotation above this method signature(ù“õÞúÿÿÿÿH­	RMAJORZ
+CODE_SMELL

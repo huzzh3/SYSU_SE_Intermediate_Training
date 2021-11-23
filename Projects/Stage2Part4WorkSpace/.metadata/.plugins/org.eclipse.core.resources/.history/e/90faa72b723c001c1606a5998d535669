@@ -1,0 +1,7 @@
+package blusterCritter;
+
+public class BlusterCritterRunner extends Critter {
+	
+	// The courageFactor would be set in constructor
+	private int courageFactor;
+}

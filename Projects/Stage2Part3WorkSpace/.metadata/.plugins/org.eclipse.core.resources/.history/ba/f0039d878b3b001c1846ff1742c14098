@@ -1,0 +1,8 @@
+package jumper;
+
+public class JumperRunner {
+	// Set the runner for jumper
+	public static void main(String[] args) {
+		
+	}
+}

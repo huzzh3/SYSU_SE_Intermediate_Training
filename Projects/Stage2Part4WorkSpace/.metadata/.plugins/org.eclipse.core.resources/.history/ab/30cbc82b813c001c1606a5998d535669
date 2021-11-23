@@ -1,0 +1,13 @@
+package kingCrab;
+
+import java.awt.Color;
+
+import quickCrab.CrabCritter;
+
+public class KingCrab extends CrabCritter {
+	
+	// Initialize the king crab's color (pink)
+	public KingCrab() {
+		setColor(Color.PINK);
+	}
+}

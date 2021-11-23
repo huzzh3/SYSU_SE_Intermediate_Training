@@ -1,0 +1,51 @@
+
+R
+java:S2129£" Remove this "String" constructor(îâ–ÊşÿÿÿÿHÛRMAJORZ
+CODE_SMELL
+R
+java:S2129°" Remove this "String" constructor(îâ–ÊşÿÿÿÿHÜRMAJORZ
+CODE_SMELL
+f
+java:S2209"5Change this instance-reference to a static reference.(„È€ıÿÿÿÿHêRMAJORZ
+CODE_SMELL
+N
+java:S1116§"Remove this empty statement.(Åñ­õşÿÿÿÿH×RMINORZ
+CODE_SMELL
+‰	java:S127²"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷¹ÎüøÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+N
+java:S1643³"Use a StringBuilder instead.(Û¯îÉşÿÿÿÿHçRMINORZ
+CODE_SMELL
+N
+java:S1116»"Remove this empty statement.(Åñ­õşÿÿÿÿHâRMINORZ
+CODE_SMELL
+f
+java:S2259q"AA "NullPointerException" could be thrown; "obj" is nullable here.(¢ÓĞšHæRMAJORZBUG
+Š
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¸Ù½íúÿÿÿÿHîRMINORZ
+CODE_SMELL
+Q
+java:S2129~" Remove this "String" constructor(îâ–ÊşÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+N
+java:S1116Ï"Remove this empty statement.(Åñ­õşÿÿÿÿHäRMINORZ
+CODE_SMELL
+I
+java:S1643µ"Use a StringBuilder instead.(¹†Ñ…HèRMINORZ
+CODE_SMELL
+I
+java:S1643¦"Use a StringBuilder instead.(šÍÕ‡HìRMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(”ø·®HíRMAJORZ
+CODE_SMELL
+‡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(„¡¦HİRCRITICALZ
+CODE_SMELL
+H
+java:S1643€"Use a StringBuilder instead.(á¯ÓVHéRMINORZ
+CODE_SMELL
+a
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»ÚıÿÿÿÿHàRMINORZ
+CODE_SMELL
+T
+java:S1905)"(Remove this unnecessary cast to "int[]".(é—§HŞRMINORZ
+CODE_SMELL

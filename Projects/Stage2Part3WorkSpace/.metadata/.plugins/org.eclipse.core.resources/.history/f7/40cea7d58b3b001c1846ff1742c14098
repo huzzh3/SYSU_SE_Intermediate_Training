@@ -1,0 +1,20 @@
+package jumper;
+
+import info.gridworld.actor.ActorWorld;
+
+public class JumperRunner {
+	// Set the runner for jumper
+	public static void main(String[] args) {
+		
+		// Initialize the world
+		ActorWorld world = new ActorWorld();
+		
+		// Declare the actors
+		Jumper alice = new Jumper();
+		Rock   rock  = new Rock();
+		
+		
+		// Add the actors
+		world.add(new Jumper());
+	}
+}

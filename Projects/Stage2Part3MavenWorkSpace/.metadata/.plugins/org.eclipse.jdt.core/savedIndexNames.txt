@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+/home/arnohu/code/Java/Stage2Part3MavenWorkSpace/.metadata/.plugins/org.eclipse.jdt.core
+1905927238.index
+2291048243.index
+4209463882.index
+267402727.index
+2659583795.index
+2202939237.index
+1816615003.index
+646308851.index

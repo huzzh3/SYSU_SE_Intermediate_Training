@@ -1,0 +1,6 @@
+package spiralBug;
+
+public class SpiralBug extends Bug {
+	private int steps;
+	private int sideLength;
+}

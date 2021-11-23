@@ -1,0 +1,37 @@
+package quickCrab;
+
+import java.awt.Color;
+import java.util.ArrayList;
+
+import info.gridworld.grid.Location;
+
+public class QuickCrab extends CrabCritter {
+	
+	// Constructor, initialize the color to blue
+	public QuickCrab() {
+		setColor(Color.BLUE);
+	}
+	
+    /**
+     * @return list of empty locations immediately two steps away to the right and to the left
+     */
+    public ArrayList<Location> getMoveLocations()
+    {
+    	// Initialize the locations to be returned
+        ArrayList<Location> locations = new ArrayList<Location>();
+        
+        // Get the grid
+        Grid grid = getGrid();
+        
+        // Get current location
+        Location currentLocation = getLocation();
+        
+        // Get the left temp location
+        Location tempLocation = currentLocation.getAdjacentLocation(getDirection() + Location.LEFT);
+        
+        // Check the location
+        if
+
+        return locations;
+    }
+}

@@ -1,0 +1,5 @@
+package chameleonKid;
+
+public class ChameleonKid extends ModifiedChameleonCritter {
+
+}

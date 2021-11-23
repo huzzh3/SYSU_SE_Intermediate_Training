@@ -1,0 +1,80 @@
+
+U
+java:S2140K")Use "java.util.Random.nextInt()" instead.(ëœùúH³RMINORZ
+CODE_SMELL
+m	java:S125ÿ"<This block of commented-out lines of code should be removed.(‘“Ã‹ÿÿÿÿÿH´RMAJORZ
+CODE_SMELL
+j	java:S106’"9Replace this use of System.out or System.err by a logger.(¿ÂíşÿÿÿÿHµRMAJORZ
+CODE_SMELL
+e	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(Òæ«€H¶RMAJORZ
+CODE_SMELL
+e	java:S106“"9Replace this use of System.out or System.err by a logger.(ïûøüH·RMAJORZ
+CODE_SMELL
+e	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ§îØH¸RMAJORZ
+CODE_SMELL
+j
+java:S5993%"9Change the visibility of this constructor to "protected".(„ŸÍÂÿÿÿÿÿH¹RMAJORZ
+CODE_SMELL
+	java:S100Ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÈ ÛşÿÿÿÿH»RMINORZ
+CODE_SMELL
+j
+java:S59934"9Change the visibility of this constructor to "protected".(™Ñ×ùÿÿÿÿH¼RMAJORZ
+CODE_SMELL
+	java:S100Í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºĞ–½ùÿÿÿÿH¾RMINORZ
+CODE_SMELL
+€
+java:S1192ö"KDefine a constant instead of duplicating this literal "End state:" 5 times.(éÂÉùÿÿÿÿH¿RCRITICALZ
+CODE_SMELL
+Z
+java:S1604Ğ"(Make this anonymous inner class a lambda(‹­Ü”ÿÿÿÿÿHÅRMAJORZ
+CODE_SMELL
+U
+java:S2140F")Use "java.util.Random.nextInt()" instead.(ı ´HÆRMINORZ
+CODE_SMELL
+‹
+java:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(Àè‡œùÿÿÿÿHÇRMINORZ
+CODE_SMELL
+j	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(ÁÙÒÉıÿÿÿÿHÉRMAJORZ
+CODE_SMELL
+e	java:S106‚"9Replace this use of System.out or System.err by a logger.(†öÔ†HÊRMAJORZ
+CODE_SMELL
+e	java:S106ş"9Replace this use of System.out or System.err by a logger.(™‘¹HËRMAJORZ
+CODE_SMELL
+†
+java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¨ˆæÙşÿÿÿÿHÌRCRITICALZ
+CODE_SMELL
+R
+java:S2129À" Remove this "String" constructor(îâ–ÊşÿÿÿÿHàRMAJORZ
+CODE_SMELL
+j	java:S106™"9Replace this use of System.out or System.err by a logger.(¤àÅÇùÿÿÿÿHáRMAJORZ
+CODE_SMELL
+j	java:S106“"9Replace this use of System.out or System.err by a logger.(’„™¦ıÿÿÿÿHâRMAJORZ
+CODE_SMELL
+‚
+java:S1192õ"MDefine a constant instead of duplicating this literal "Begin state:" 5 times.(ä’ğÈşÿÿÿÿHãRCRITICALZ
+CODE_SMELL
+e	java:S106"9Replace this use of System.out or System.err by a logger.(…§ËHéRMAJORZ
+CODE_SMELL
+h	java:S125–"<This block of commented-out lines of code should be removed.(òÌÚ¿HêRMAJORZ
+CODE_SMELL
+j	java:S106”"9Replace this use of System.out or System.err by a logger.(ÁÙÒÉıÿÿÿÿHìRMAJORZ
+CODE_SMELL
+j	java:S106€"9Replace this use of System.out or System.err by a logger.(¿ÂíşÿÿÿÿHíRMAJORZ
+CODE_SMELL
+j	java:S106‘"9Replace this use of System.out or System.err by a logger.(ÁÙÒÉıÿÿÿÿHîRMAJORZ
+CODE_SMELL
+j	java:S106•"9Replace this use of System.out or System.err by a logger.(¿ÂíşÿÿÿÿHïRMAJORZ
+CODE_SMELL
+•
+java:S1192ù"`Define a constant instead of duplicating this literal "Total number of searched nodes:" 5 times.(ç”–¼ıÿÿÿÿHğRCRITICALZ
+CODE_SMELL
+e	java:S106˜"9Replace this use of System.out or System.err by a logger.(Òæ«€HöRMAJORZ
+CODE_SMELL
+j	java:S106„"9Replace this use of System.out or System.err by a logger.(äÆóÁúÿÿÿÿH÷RMAJORZ
+CODE_SMELL
+Y
+java:S1125ò"'Remove the unnecessary boolean literal.(õ¹ÚÅøÿÿÿÿHøRMINORZ
+CODE_SMELL
+U
+java:S1643Ä"Use a StringBuilder instead.(ê»äÎúÿÿÿÿ8Û”§ÚÔ/HúRMINORZ
+CODE_SMELL

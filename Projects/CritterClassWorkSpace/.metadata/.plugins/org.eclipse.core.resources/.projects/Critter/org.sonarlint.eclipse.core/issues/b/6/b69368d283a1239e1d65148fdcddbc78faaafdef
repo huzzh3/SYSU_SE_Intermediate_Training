@@ -1,0 +1,28 @@
+
+„
+java:S2293g"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªõ¨‚H4RMINORZ
+CODE_SMELL
+Z
+java:S3740h"/Provide the parametrized type for this generic.(ƒıüH)RMAJORZ
+CODE_SMELL
+ 
+java:S1319e"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ºï¿ØıÿÿÿÿH6RMINORZ
+CODE_SMELL
+„
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒ¿ÔÌH0RMINORZ
+CODE_SMELL
+j
+java:S1161,":Add the "@Override" annotation above this method signature(¸°êíúÿÿÿÿH*RMAJORZ
+CODE_SMELL
+j
+java:S1161>":Add the "@Override" annotation above this method signature(ù“õŞúÿÿÿÿH,RMAJORZ
+CODE_SMELL
+E
+java:S1220""Move this file to a named package.H9RMINORZ
+CODE_SMELL
+„
+java:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªõ¨‚H2RMINORZ
+CODE_SMELL
+j
+java:S1161M":Add the "@Override" annotation above this method signature(­ßÊĞıÿÿÿÿH.RMAJORZ
+CODE_SMELL

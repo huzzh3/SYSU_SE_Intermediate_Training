@@ -1,0 +1,72 @@
+package rockHound;
+
+import java.util.ArrayList;
+
+import info.gridworld.actor.Actor;
+import info.gridworld.actor.Critter;
+import info.gridworld.actor.Rock;
+import info.gridworld.grid.Location;
+
+public class RockHound extends Critter {
+	
+	// RockHound would remove the rocks around
+	public void processActors(ArrayList<Actor> actors) {
+		
+		// Process the actor in the actors
+		for (Actor actor : actors) {
+			if (actor instanceof Rock) {
+				// Remove the rock
+				actor.removeSelfFromGrid();
+			}
+		}
+	}
+	
+	// Get the actors two steps away
+    public ArrayList<Actor> getActors()
+    {
+    	// You need to return actors
+        ArrayList<Actor> actors = new ArrayList<Actor>();
+        
+        // Get the current location
+        Location currentLocation = getLocation();
+        
+        // Get the actors
+        for (int row = currentLocation.getRow() - 2; row <= currentLocation.getRow() + 2; row++) {
+        	for (int col = currentLocation.getCol() - 2; col <= currentLocation.getCol() + 2; col++) {
+        		Location tempLocation = new Location(row, col);
+        		
+        		// Check the validity of the location
+        		if (getGrid().isValid(tempLocation)) {
+        			Actor actor = getGrid().get(tempLocation);
+        			
+        			// Check if there's actor and it can't be self
+        			if (actor != null && actor != this) {
+        				actors.add(actor);
+        			}
+        		}
+        	}
+        }
+        
+        // Return
+        return actors;
+    }
+    
+	// ProcessActors() would process the actors around
+    public void processActors(ArrayList<Actor> actors)
+    {
+    	// Get the actors size
+        int n = actors.size();
+        if (n == 0) {
+        	// If the actors is empty, you need to darken the color
+        	darken();
+        	// Then return to the call function
+        	return;
+        }
+            
+        // else you would to set your color
+        int r = (int) (Math.random() * n);
+
+        Actor other = actors.get(r);
+        setColor(other.getColor());
+    }
+}

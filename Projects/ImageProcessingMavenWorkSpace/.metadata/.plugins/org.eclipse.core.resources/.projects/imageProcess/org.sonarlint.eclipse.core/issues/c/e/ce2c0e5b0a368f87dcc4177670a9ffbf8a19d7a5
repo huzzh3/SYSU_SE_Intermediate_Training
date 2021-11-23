@@ -1,0 +1,30 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çèŸ¶ùÿÿÿÿH÷RMINORZ
+CODE_SMELL
+R
+java:S19059"&Remove this unnecessary cast to "int".(ßƒïHøRMINORZ
+CODE_SMELL
+W
+java:S19053"&Remove this unnecessary cast to "int".(ğÔ•úùÿÿÿÿHúRMINORZ
+CODE_SMELL
+U
+java:S1197!"*Move the array designators [] to the type.(‰ª¼rHüRMINORZ
+CODE_SMELL
+V
+java:S1197""*Move the array designators [] to the type.(ïå¦–HÿRMINORZ
+CODE_SMELL
+a
+java:S1905l"0Remove this unnecessary cast to "ImageProducer".(äÚÙ¯üÿÿÿÿH‚RMINORZ
+CODE_SMELL
+R
+java:S1905R"&Remove this unnecessary cast to "int".(–ááŒH„RMINORZ
+CODE_SMELL
+Q
+java:S1905?"&Remove this unnecessary cast to "int".(Ğ²¦H†RMINORZ
+CODE_SMELL
+V
+java:S1197 "*Move the array designators [] to the type.(èäñ—HˆRMINORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8ÁÈü“Ô/H‹RMINORZ
+CODE_SMELL

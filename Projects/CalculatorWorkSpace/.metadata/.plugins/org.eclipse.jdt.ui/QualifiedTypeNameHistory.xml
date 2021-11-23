@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.JavaVFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
+    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+</qualifiedTypeNameHistroy>

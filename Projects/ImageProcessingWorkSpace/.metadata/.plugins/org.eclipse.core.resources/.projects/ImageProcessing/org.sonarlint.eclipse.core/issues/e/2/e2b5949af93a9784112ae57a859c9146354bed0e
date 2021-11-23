@@ -1,0 +1,15 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çèŸ¶ùÿÿÿÿHžRMINORZ
+CODE_SMELL
+h
+java:S49735"<Strings and Boxed types should be compared using "equals()".(«Ãªð8å¦¡ˆÔ/HŸRMAJORZBUG
+m
+java:S4973>"<Strings and Boxed types should be compared using "equals()".(ÐÐ°¬ùÿÿÿÿ8À­žˆÔ/H¢RMAJORZBUG
+E
+java:S2183F"Remove this useless shift( ¬«8ÿœ®ˆÔ/H¥RMINORZBUG
+g
+java:S49738"<Strings and Boxed types should be compared using "equals()".(ôÉŸN8æé™ˆÔ/H¦RMAJORZBUG
+m
+java:S4973;"<Strings and Boxed types should be compared using "equals()".(óÕ¯”øÿÿÿÿ8À­žˆÔ/H©RMAJORZBUG
+‹	java:S116+"TRename this field "RGBchoose" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÁõ²ýÿÿÿÿ8×ß“ˆÔ/H¬RMINORZ
+CODE_SMELL

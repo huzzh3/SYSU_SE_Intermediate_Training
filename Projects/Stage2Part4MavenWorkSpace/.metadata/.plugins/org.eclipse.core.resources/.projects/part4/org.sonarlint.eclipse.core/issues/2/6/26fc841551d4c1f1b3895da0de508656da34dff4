@@ -1,0 +1,9 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á¢¶H‚RMINORZ
+CODE_SMELL
+
+java:S14887"`Immediately return this expression instead of assigning it to the temporary variable "distance".(ŒÒ·½şÿÿÿÿH~RMINORZ
+CODE_SMELL
+e
+java:S1161":Add the "@Override" annotation above this method signature(ûİ¸H|RMAJORZ
+CODE_SMELL

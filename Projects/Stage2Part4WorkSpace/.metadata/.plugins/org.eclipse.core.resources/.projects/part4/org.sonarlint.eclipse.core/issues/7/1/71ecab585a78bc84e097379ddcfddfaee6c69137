@@ -1,0 +1,9 @@
+
+c
+java:S1128"+Remove this unused import 'java.awt.Color'.(ùÈãÈøÿÿÿÿ8´ÿ©¥Î/HîRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£·±ÐHÌRMINORZ
+CODE_SMELL
+i
+java:S1128"6Remove this unused import 'chameleonKid.ChameleonKid'.(àúµç8´ÿ©¥Î/HðRMINORZ
+CODE_SMELL

@@ -1,0 +1,25 @@
+package chameleonKid;
+
+import modifiedChameleonCritter.ModifiedChameleonCritter;
+
+public class ChameleonKid extends ModifiedChameleonCritter {
+    /**
+     * A crab gets the actors in the three locations immediately in front, to its
+     * front-right and to its front-left
+     * @return a list of actors occupying these locations
+     */
+    public ArrayList<Actor> getActors()
+    {
+        ArrayList<Actor> actors = new ArrayList<Actor>();
+        int[] dirs =
+            { Location.AHEAD, Location.HALF_LEFT, Location.HALF_RIGHT };
+        for (Location loc : getLocationsInDirections(dirs))
+        {
+            Actor a = getGrid().get(loc);
+            if (a != null)
+                actors.add(a);
+        }
+
+        return actors;
+    }
+}

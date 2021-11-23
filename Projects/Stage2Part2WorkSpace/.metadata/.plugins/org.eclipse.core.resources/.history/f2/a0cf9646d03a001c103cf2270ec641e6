@@ -1,0 +1,14 @@
+package dancingBug;
+
+import info.gridworld.actor.Bug;
+
+public class DancingBugRunner extends Bug {
+	private int steps;
+    private int sideLength;
+    
+    public BoxBug(int length)
+    {
+        steps = 0;
+        sideLength = length;
+    }
+}

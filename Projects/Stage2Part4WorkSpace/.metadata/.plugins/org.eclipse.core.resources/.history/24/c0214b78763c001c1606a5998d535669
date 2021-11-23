@@ -1,0 +1,21 @@
+package blusterCritter;
+
+import java.awt.Color;
+
+import chameleonKid.ChameleonKid;
+import info.gridworld.actor.ActorWorld;
+import info.gridworld.actor.Critter;
+import info.gridworld.actor.Rock;
+import info.gridworld.grid.Location;
+
+public class BlusterCritterRunner {
+    public static void main(String[] args)
+    {
+        ActorWorld world = new ActorWorld();
+
+        
+        world.add(new Location(7, 4), new BlusterCritter(4));
+        world.add(new Location(5, 6), new BlusterCritter(10));
+        world.show();
+    }
+}

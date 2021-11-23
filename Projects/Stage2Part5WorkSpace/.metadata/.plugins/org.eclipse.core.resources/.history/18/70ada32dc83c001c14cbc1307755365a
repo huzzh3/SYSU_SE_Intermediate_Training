@@ -1,0 +1,5 @@
+package sparseGrid;
+
+public class SparseGridNode {
+	private Object occupant
+}

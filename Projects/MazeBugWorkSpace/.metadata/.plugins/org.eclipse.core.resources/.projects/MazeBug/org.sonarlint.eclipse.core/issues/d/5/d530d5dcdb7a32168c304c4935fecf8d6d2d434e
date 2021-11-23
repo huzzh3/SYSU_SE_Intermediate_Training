@@ -1,0 +1,9 @@
+
+o
+java:S1128">Remove this unused import 'info.gridworld.grid.UnboundedGrid'.(‡†«ÿÿÿÿÿH›#RMINORZ
+CODE_SMELL
+\
+java:S1128"+Remove this unused import 'java.awt.Color'.(ùÈãÈøÿÿÿÿH#RMINORZ
+CODE_SMELL
+‘	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÌôáûÿÿÿÿ8…£ö–Ô/HŸ#RMINORZ
+CODE_SMELL

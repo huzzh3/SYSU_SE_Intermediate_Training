@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/arnohu/code/Java/MazeBugWorkSpace/.metadata/.plugins/org.eclipse.jdt.core
+3994728556.index
+318900999.index
+646308851.index

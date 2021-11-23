@@ -1,0 +1,7 @@
+package chameleonKid;
+
+import modifiedChameleonCritter.ModifiedChameleonCritter;
+
+public class ChameleonKid extends ModifiedChameleonCritter {
+	
+}

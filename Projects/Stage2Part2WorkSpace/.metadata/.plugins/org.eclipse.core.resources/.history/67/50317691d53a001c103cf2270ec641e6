@@ -1,0 +1,13 @@
+package spiralBug;
+
+import info.gridworld.actor.Bug;
+
+public class SpiralBug extends Bug {
+	private int steps;
+	private int sideLength;
+	
+	public SpiralBug() {
+		steps = 0;
+		sideLength = 
+	}
+}

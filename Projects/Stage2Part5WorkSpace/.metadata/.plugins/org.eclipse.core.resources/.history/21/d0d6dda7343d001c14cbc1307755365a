@@ -1,0 +1,65 @@
+package unboundedGrid2;
+
+import java.util.ArrayList;
+
+import info.gridworld.grid.AbstractGrid;
+import info.gridworld.grid.Location;
+
+// We define this UnBoundedGrid to be a square
+public class UnboundedGrid2<E> extends AbstractGrid<E> {
+	// We use occupantArray to store item
+	private Object[][] occupantArray;
+	// The dimension of the occupantArray
+	private int dim;
+	
+	// Constructor
+	public UnboundedGrid2() {
+		// Initialize the gird to be 16 x 16
+		dim = 16;
+		occupantArray = new Object[dim][dim];
+	}
+	
+	
+	
+	@Override
+	public E get(Location arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getNumCols() {
+		return -1;
+	}
+
+	@Override
+	public int getNumRows() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public ArrayList<Location> getOccupiedLocations() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isValid(Location arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public E put(Location arg0, E arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public E remove(Location arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

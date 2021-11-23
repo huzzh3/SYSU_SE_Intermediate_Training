@@ -1,0 +1,9 @@
+
+l
+java:S1161":Add the "@Override" annotation above this method signature(Π«Πρ8Φ§½ΆΞ/H_RMAJORZ
+CODE_SMELL
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ηιόÿÿÿÿHRMINORZ
+CODE_SMELL
+`
+java:S2140")Use "java.util.Random.nextInt()" instead.(«ΰΘώÿÿÿÿ8Φ§½ΆΞ/HaRMINORZ
+CODE_SMELL

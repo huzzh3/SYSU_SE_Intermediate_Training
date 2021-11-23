@@ -1,0 +1,9 @@
+
+q
+java:S1128"9Remove this unused import 'info.gridworld.grid.Location'.(ı¿°±ûÿÿÿÿ8˜şÙ¤Î/HÄRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”Ö›H¸RMINORZ
+CODE_SMELL
+m
+java:S1161":Add the "@Override" annotation above this method signature(ûİ¸8„»˜¤Î/HÁRMAJORZ
+CODE_SMELL

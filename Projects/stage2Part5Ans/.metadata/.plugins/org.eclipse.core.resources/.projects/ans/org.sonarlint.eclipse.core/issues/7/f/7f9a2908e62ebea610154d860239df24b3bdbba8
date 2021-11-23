@@ -1,0 +1,13 @@
+
+~
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(è¨¥H=RMINORZ
+CODE_SMELL
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¨≠ë≠H?RMINORZ
+CODE_SMELL
+
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(∂˛ÂéHARMINORZ
+CODE_SMELL
+E
+java:S1220""Move this file to a named package.HCRMINORZ
+CODE_SMELL

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;imageProcess&apos;&#x0A;- Original project: &apos;imageProcess&apos;&#x0A;- Original element: &apos;imageProcess/src/main/java/imageProcess&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;imageProcess" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1637495072099" subPackages="false" version="1.0"/>
+</session>

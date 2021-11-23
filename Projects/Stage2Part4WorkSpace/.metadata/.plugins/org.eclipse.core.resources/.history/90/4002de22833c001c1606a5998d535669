@@ -1,0 +1,17 @@
+package kingCrab;
+
+import java.awt.Color;
+import java.util.ArrayList;
+
+public class KingCrab extends CrabCritter {
+	
+	// Initialize the king crab's color (pink)
+	public KingCrab() {
+		setColor(Color.PINK);
+	}
+	
+	// You need to override the processActors function
+	public void processActors(ArrayList<Actor> actors) {
+		
+	}
+}

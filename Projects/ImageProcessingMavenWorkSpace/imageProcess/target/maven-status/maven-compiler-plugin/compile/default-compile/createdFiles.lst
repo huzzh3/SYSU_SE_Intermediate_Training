@@ -1,0 +1,4 @@
+imageProcessing/ImageReaderRunner.class
+imageProcessing/ImplementImageIO.class
+imageProcessing/ImplementImageProcessor.class
+imageProcessing/ColorFilter.class

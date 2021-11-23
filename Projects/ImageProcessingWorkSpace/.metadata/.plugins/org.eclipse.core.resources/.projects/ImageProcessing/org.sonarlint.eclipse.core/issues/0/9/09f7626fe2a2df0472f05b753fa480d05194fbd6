@@ -1,0 +1,29 @@
+
+h
+java:S1905^"0Remove this unnecessary cast to "ImageProducer".(äÚÙ¯üÿÿÿÿ8¶Æ¸‡Ô/H‡RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çèŸ¶ùÿÿÿÿHRMINORZ
+CODE_SMELL
+…
+java:S2095*"RUse try-with-resources or close this "FileImageInputStream" in a "finally" clause.(®Í‰Áùÿÿÿÿ8¶Æ¸‡Ô/H†RBLOCKERZBUG
+Y
+java:S19054"&Remove this unnecessary cast to "int".(ßƒï8¶Æ¸‡Ô/H”RMINORZ
+CODE_SMELL
+^
+java:S1905."&Remove this unnecessary cast to "int".(ğÔ•úùÿÿÿÿ8¶Æ¸‡Ô/H‹RMINORZ
+CODE_SMELL
+]
+java:S1197"*Move the array designators [] to the type.(èäñ—8¶Æ¸‡Ô/H—RMINORZ
+CODE_SMELL
+Y
+java:S1905M"&Remove this unnecessary cast to "int".(–ááŒ8¶Æ¸‡Ô/HœRMINORZ
+CODE_SMELL
+]
+java:S1197!"*Move the array designators [] to the type.(ïå¦–8¶Æ¸‡Ô/H‘RMINORZ
+CODE_SMELL
+X
+java:S1905:"&Remove this unnecessary cast to "int".(Ğ²¦8¶Æ¸‡Ô/HšRMINORZ
+CODE_SMELL
+\
+java:S1197 "*Move the array designators [] to the type.(‰ª¼r8¶Æ¸‡Ô/HRMINORZ
+CODE_SMELL

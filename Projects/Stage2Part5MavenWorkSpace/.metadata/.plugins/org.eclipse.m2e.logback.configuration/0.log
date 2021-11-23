@@ -1,0 +1,65 @@
+2021-11-04 14:35:20,223 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-04 14:36:06,967 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/pom.xml
+2021-11-04 14:36:07,669 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sysu:part5:0.0.1-SNAPSHOT @ /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/pom.xml.
+2021-11-04 14:36:07,807 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /part5/src/main/java
+2021-11-04 14:36:07,808 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /part5/src/test/java
+2021-11-04 14:36:07,921 [Worker-4: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2021-11-04 14:36:08,775 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:08,775 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:36:08,777 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:08,777 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:36:26,704 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:26,704 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:36:26,706 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:26,706 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:36:32,650 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:32,650 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:36:32,651 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:32,651 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:36:43,218 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:43,218 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:36:43,219 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:43,219 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:36:51,849 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:51,849 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:36:51,850 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:51,850 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:36:55,669 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:55,669 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:36:55,671 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:36:55,671 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:37:01,517 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:37:01,517 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:37:01,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:37:01,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:37:06,040 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:37:06,040 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:37:06,041 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:37:06,041 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:37:55,631 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:37:55,631 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:37:55,632 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:37:55,632 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:38:06,044 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:06,044 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:38:06,044 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:06,045 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:38:55,719 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sysu:part5:0.0.1-SNAPSHOT @ /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/pom.xml.
+2021-11-04 14:38:55,813 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:55,813 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:38:55,815 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:55,815 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:38:56,950 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:56,950 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:38:56,952 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:56,952 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:38:59,148 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sysu:part5:0.0.1-SNAPSHOT @ /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/pom.xml.
+2021-11-04 14:38:59,230 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:59,230 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:38:59,232 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:38:59,232 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources
+2021-11-04 14:39:44,003 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sysu:part5:0.0.1-SNAPSHOT @ /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/pom.xml.
+2021-11-04 14:39:44,054 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:39:44,055 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/main/resources
+2021-11-04 14:39:44,056 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-04 14:39:44,056 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arnohu/code/Java/Stage2Part5MavenWorkSpace/part5/src/test/resources

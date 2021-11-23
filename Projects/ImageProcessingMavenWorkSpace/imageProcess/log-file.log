@@ -1,0 +1,74 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mSYSU:imageProcess[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding imageProcess 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mimageProcess[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/arnohu/code/Java/ImageProcessingMavenWorkSpace/imageProcess/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.8:prepare-agent[m [1m(default)[m @ [36mimageProcess[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/arnohu/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/home/arnohu/code/Java/ImageProcessingMavenWorkSpace/imageProcess/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mimageProcess[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mimageProcess[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 3 source files to /home/arnohu/code/Java/ImageProcessingMavenWorkSpace/imageProcess/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mimageProcess[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mimageProcess[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 1 source file to /home/arnohu/code/Java/ImageProcessingMavenWorkSpace/imageProcess/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mimageProcess[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /home/arnohu/code/Java/ImageProcessingMavenWorkSpace/imageProcess/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+Caused by: java.lang.RuntimeException: Class java/util/UUID could not be instrumented.
+	at org.jacoco.agent.rt.internal_e5875b2.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:140)
+	at org.jacoco.agent.rt.internal_e5875b2.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:101)
+	at org.jacoco.agent.rt.internal_e5875b2.PreMain.createRuntime(PreMain.java:55)
+	at org.jacoco.agent.rt.internal_e5875b2.PreMain.premain(PreMain.java:47)
+	... 6 more
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+	at java.base/java.lang.Class.getField(Class.java:1999)
+	at org.jacoco.agent.rt.internal_e5875b2.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:138)
+	... 9 more
+*** java.lang.instrument ASSERTION FAILED ***: "result" with message agent load/premain call failed at src/java.instrument/share/native/libinstrument/JPLISAgent.c line: 422
+FATAL ERROR in native method: processing of -javaagent failed, processJavaStart failed
+Aborted (core dumped)
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.842 s
+[[1;34mINFO[m] Finished at: 2021-11-21T20:56:02+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.12.4:test[m [1m(default-test)[m on project [36mimageProcess[m: [1;31mExecution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test failed: The forked VM terminated without saying properly goodbye. VM crash or System.exit called ?[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

@@ -1,0 +1,12 @@
+
+Œ
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒ¿ÔÌ8ãÛ¤Î/HÏRMINORZ
+CODE_SMELL
+r
+java:S1161":Add the "@Override" annotation above this method signature(¸°êíúÿÿÿÿ8ãÛ¤Î/HÍRMAJORZ
+CODE_SMELL
+m
+java:S1161<":Add the "@Override" annotation above this method signature(Ğ«Ğñ8ôíß¤Î/HêRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£·±ĞHÊRMINORZ
+CODE_SMELL

@@ -1,0 +1,15 @@
+package dancingBug;
+
+import info.gridworld.actor.Bug;
+
+public class DancingBug {
+	private int   steps;
+    private int   sideLength;
+    private int[] trunArray;
+    
+    public DancingBug(int length)
+    {
+        steps = 0;
+        sideLength = length;
+    }
+}

@@ -1,0 +1,13 @@
+
+E
+java:S1220""Move this file to a named package.H?RMINORZ
+CODE_SMELL
+e
+java:S1161%":Add the "@Override" annotation above this method signature(Ð«ÐñH:RMAJORZ
+CODE_SMELL
+Y
+java:S2140*")Use "java.util.Random.nextInt()" instead.(«àÈ˜þÿÿÿÿH<RMINORZ
+CODE_SMELL
+j
+java:S11613":Add the "@Override" annotation above this method signature(­ßÊÐýÿÿÿÿH=RMAJORZ
+CODE_SMELL

@@ -1,0 +1,8 @@
+package zBug;
+
+import info.gridworld.actor.Bug;
+
+public class ZBug extends Bug {
+	private int steps;
+	private int sideLength;
+}

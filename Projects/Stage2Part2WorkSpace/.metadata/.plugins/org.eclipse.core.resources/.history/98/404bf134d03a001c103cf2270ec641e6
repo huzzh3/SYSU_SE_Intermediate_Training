@@ -1,0 +1,5 @@
+package dancingBug;
+
+public class DancingBugRunner extends Bug {
+
+}

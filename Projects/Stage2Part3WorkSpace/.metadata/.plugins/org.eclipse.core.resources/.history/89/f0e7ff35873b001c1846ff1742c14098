@@ -1,0 +1,57 @@
+package jumper;
+
+import java.awt.Color;
+
+import info.gridworld.grid.Grid;
+import info.gridworld.grid.Location;
+import info.gridworld.actor.Actor;
+
+// Jumper can jump over the Rocks and the Flowers
+// Jumper move two cells one time
+public class Jumper extends Actor {
+	
+	// Constructor (without parameter)
+	public Jumper() {
+		// Default color is blue
+		setColor(Color.BLUE);
+	}
+	
+	// Constructor (with one parameter)
+	public Jumper(Color jumperColor) {
+		setColor(jumperColor);
+	}
+	
+	// actor function (override from actor)
+	public void act() {
+		if (canJump()) {
+			jump();
+		}
+		else {
+			turn();
+		}
+	}
+
+	public boolean canJump() {
+		// Get the grid where Jumper come from
+		// <Actor> means there're only actors in the grid
+		Grid<Actor> grid = getGrid();
+		
+		// Check the grid
+		if (grid == null) {
+			return false;
+		}
+		
+		// Get the current location
+		Location currentLocation = getLocation();
+				
+		// Get the next location
+		Location nextLocation = currentLocation.getAdjacentLocation(getDirection());
+		
+		// Check the locations
+		if (!grid.isValid(nextLocation)) {
+			
+		}
+		
+		return true;
+	}
+}

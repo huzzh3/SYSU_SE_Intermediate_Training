@@ -1,0 +1,19 @@
+package calculator;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+
+	@Test
+	public void testCalculate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMain() {
+		fail("Not yet implemented");
+	}
+
+}

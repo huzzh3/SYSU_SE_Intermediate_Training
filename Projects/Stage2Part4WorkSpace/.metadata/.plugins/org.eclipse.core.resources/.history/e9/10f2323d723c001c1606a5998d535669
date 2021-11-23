@@ -1,0 +1,12 @@
+package blusterCritter;
+
+import info.gridworld.actor.Critter;
+
+public class BlusterCritterRunner extends Critter {
+	
+	// The courageFactor would be set in constructor
+	private int courageFactor;
+	
+	public BlusterCritter(int courageFactorInput) P
+	
+}

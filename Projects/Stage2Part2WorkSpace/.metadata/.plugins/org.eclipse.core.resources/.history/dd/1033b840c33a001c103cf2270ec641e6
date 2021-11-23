@@ -1,0 +1,13 @@
+package circleBug;
+
+import info.gridworld.actor.Bug;
+
+public class CircleBug extends Bug {
+	private int steps;
+	private int sideLength;
+	
+	public CircleBug(int length) {
+		
+	}
+
+}

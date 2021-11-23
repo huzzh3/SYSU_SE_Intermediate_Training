@@ -1,0 +1,9 @@
+package kingCrab;
+
+import quickCrab.CrabCritter;
+
+public class KingCrab extends CrabCritter {
+	
+	// Initialize the king crab's color (pink)
+	public KingCrab()
+}

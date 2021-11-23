@@ -1,0 +1,26 @@
+package kingCrab;
+
+import info.gridworld.actor.ActorWorld;
+import info.gridworld.actor.Bug;
+import info.gridworld.actor.Flower;
+import info.gridworld.actor.Rock;
+import info.gridworld.grid.Location;
+
+public class KingCrabRunner {
+    public static void main(String[] args)
+    {
+        ActorWorld world = new ActorWorld();
+        
+        world.add(new Location(3, 5), new CrabCritter());
+        world.add(new Location(3, 6), new Bug());
+        world.add(new Location(3, 7), new Rock());
+        world.add(new Location(4, 6), new KingCrab());
+        
+        world.add(new Location(0, 5), new CrabCritter());
+        world.add(new Location(0, 6), new Bug());
+        world.add(new Location(0, 7), new Flower());
+        world.add(new Location(1, 6), new KingCrab());
+        
+        world.show();
+    }
+}

@@ -1,0 +1,21 @@
+package calculator;
+
+import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CalculatorTest {
+
+	@Test
+	void testMain() {
+		Calculator calculator = new Calculator();
+		
+		calculator.operator = Calculator.PLUS;
+		assertEquals(100, (int)calculator.calculate(40, 60));
+		assertEquals(70, (int)calculator.calculate(100, 30));
+		assertEquals(500, (int)calculator.calculate(25, 20));
+		assertEquals(10, (int)calculator.calculate(300, 30));
+	}
+
+}

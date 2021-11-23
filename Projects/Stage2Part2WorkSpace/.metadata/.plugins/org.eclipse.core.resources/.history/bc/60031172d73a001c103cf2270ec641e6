@@ -1,0 +1,7 @@
+package zBug;
+
+import info.gridworld.actor.Bug;
+
+public class ZBug extends Bug {
+
+}

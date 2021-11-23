@@ -1,0 +1,24 @@
+package imageProcessing;
+
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.image.ImageProducer;
+import java.awt.image.MemoryImageSource;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.stream.FileImageInputStream;
+
+import imagereader.IImageIO;
+
+public class ImplementImageIO implements IImageIO {
+	
+
+	}
+
+	@Override
+	public Image myWrite(Image arg0, String arg1) throws IOException {
+		return null;
+	}
+
+}

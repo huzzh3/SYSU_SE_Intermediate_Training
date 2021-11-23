@@ -1,0 +1,13 @@
+
+h
+java:S1854"7Remove this useless assignment to local variable "bob".(ŠùÃÍÿÿÿÿÿHÍRMAJORZ
+CODE_SMELL
+i
+java:S1854"8Remove this useless assignment to local variable "rock".(ÔÁ³¼þÿÿÿÿHÎRMAJORZ
+CODE_SMELL
+Z
+java:S1481")Remove this unused "rock" local variable.(ÔÁ³¼þÿÿÿÿHÏRMINORZ
+CODE_SMELL
+Y
+java:S1481"(Remove this unused "bob" local variable.(ŠùÃÍÿÿÿÿÿHÑRMINORZ
+CODE_SMELL

@@ -1,0 +1,8 @@
+package dancingBug;
+
+public class DancingBugRunner {
+	public static void main(String[] args) {
+		ActorWorld world = new ActorWorld();
+		
+	}
+}

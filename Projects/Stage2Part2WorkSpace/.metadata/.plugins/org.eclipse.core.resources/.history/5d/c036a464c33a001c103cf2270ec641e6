@@ -1,0 +1,9 @@
+package circleBug;
+
+import info.gridworld.grid.Location;
+
+import java.awt.Color;
+
+public class CircleBugRunner {
+	
+}

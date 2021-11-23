@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/arnohu/Documents/ImageReader/ImageReader.jar"/>
+	<classpathentry kind="lib" path="/home/arnohu/Documents/ImageReader/lib/swing-worker-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/arnohu/Documents/ImageReader/lib/appframework-1.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

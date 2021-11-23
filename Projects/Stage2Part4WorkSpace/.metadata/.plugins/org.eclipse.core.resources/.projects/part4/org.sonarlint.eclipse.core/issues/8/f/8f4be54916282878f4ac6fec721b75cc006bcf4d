@@ -1,0 +1,9 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àà˜¦üÿÿÿÿH¤	RMINORZ
+CODE_SMELL
+r
+java:S1161":Add the "@Override" annotation above this method signature(ù“õÞúÿÿÿÿ8¨Ëº¦Î/HÙ	RMAJORZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡§ÐÂ8¨Ëº¦Î/HÛ	RMINORZ
+CODE_SMELL

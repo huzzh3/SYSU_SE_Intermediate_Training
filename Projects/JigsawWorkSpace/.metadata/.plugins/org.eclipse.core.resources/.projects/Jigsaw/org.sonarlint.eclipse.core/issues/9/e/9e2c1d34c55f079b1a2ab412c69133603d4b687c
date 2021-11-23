@@ -1,0 +1,41 @@
+
+~	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãâˆ¼ıÿÿÿÿHûRMINORZ
+CODE_SMELL
+j	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÎàÀÌüÿÿÿÿHƒRMAJORZ
+CODE_SMELL
+q
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ó«—¬H‹RMINORZ
+CODE_SMELL
+i	java:S106]"9Replace this use of System.out or System.err by a logger.(¢’¤úÿÿÿÿHüRMAJORZ
+CODE_SMELL
+d	java:S106`"9Replace this use of System.out or System.err by a logger.(ëéÄµHôRMAJORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡H‡RMINORZ
+CODE_SMELL
+Q
+java:S1181H"%Catch Exception instead of Throwable.(áù«õHúRMAJORZ
+CODE_SMELL
+q
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(™±ö„H÷RMINORZ
+CODE_SMELL
+q
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ğ«ĞªH„RMINORZ
+CODE_SMELL
+~	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÅö‰ûÿÿÿÿHRMINORZ
+CODE_SMELL
+~	java:S100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¶±ÿÿÿÿÿÿHöRMINORZ
+CODE_SMELL
+v
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ÿ•ìíşÿÿÿÿHˆRMINORZ
+CODE_SMELL
+i	java:S106_"9Replace this use of System.out or System.err by a logger.(ÄæŠ¶ùÿÿÿÿHõRMAJORZ
+CODE_SMELL
+Q
+java:S1181l"%Catch Exception instead of Throwable.(áù«õH‚RMAJORZ
+CODE_SMELL
+x
+java:S1223~"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘H€RMAJORZ
+CODE_SMELL
+p
+java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(µÁHHıRMINORZ
+CODE_SMELL

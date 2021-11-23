@@ -1,0 +1,19 @@
+!SESSION 2021-11-01 11:18:00.925 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-01 17:04:50.799
+!MESSAGE An internal error occurred during: "Installing Software".
+!STACK 0
+java.lang.IllegalStateException: Profile epp.package.java is not current. Expected timestamp 1634438292055 but was 1634438292055.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.lockProfile(SimpleProfileRegistry.java:861)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:72)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

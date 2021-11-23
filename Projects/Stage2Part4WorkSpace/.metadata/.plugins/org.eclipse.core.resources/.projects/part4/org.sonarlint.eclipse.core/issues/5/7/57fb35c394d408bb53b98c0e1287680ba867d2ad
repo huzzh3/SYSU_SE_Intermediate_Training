@@ -1,0 +1,15 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ÚÔšþÿÿÿÿHŒRMINORZ
+CODE_SMELL
+Œ
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ªõ¨‚8¿àº£Î/HÇRMINORZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒ¿ÔÌ8Ãø¶£Î/HžRMINORZ
+CODE_SMELL
+¨
+java:S1319+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ºï¿Øýÿÿÿÿ8¿àº£Î/HÉRMINORZ
+CODE_SMELL
+r
+java:S1161":Add the "@Override" annotation above this method signature(¸°êíúÿÿÿÿ8Ãø¶£Î/HœRMAJORZ
+CODE_SMELL

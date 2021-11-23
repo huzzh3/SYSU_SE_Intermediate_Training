@@ -1,0 +1,31 @@
+package dancingBug;
+
+import info.gridworld.actor.Bug;
+
+public class DancingBug {
+	private int   steps;
+    private int   sideLength;
+    private int[] turnArray;
+    
+    public DancingBug(int length, int[] arrayInput)
+    {
+        steps = 0;
+        sideLength = length;
+        turnArray = arrayInput;
+    }
+    
+    public void act()
+    {
+        if (steps < sideLength && canMove())
+        {
+            move();
+            steps++;
+        }
+        else
+        {
+            turn();
+            turn();
+            steps = 0;
+        }
+    }
+}

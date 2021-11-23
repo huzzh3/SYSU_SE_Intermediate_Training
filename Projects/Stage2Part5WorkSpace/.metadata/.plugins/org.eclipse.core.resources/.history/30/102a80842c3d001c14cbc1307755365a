@@ -1,0 +1,5 @@
+package sparseGridMap;
+
+public class SparseBoundedGrid<E> extends AbstractGrid<E> {
+
+}

@@ -1,0 +1,27 @@
+package quickCrab;
+
+import java.awt.Color;
+import java.util.ArrayList;
+
+public class QuickCrab extends CrabCritter {
+	
+	// Constructor, initialize the color to blue
+	public QuickCrab() {
+		setColor(Color.BLUE);
+	}
+	
+    /**
+     * @return list of empty locations immediately to the right and to the left
+     */
+    public ArrayList<Location> getMoveLocations()
+    {
+        ArrayList<Location> locs = new ArrayList<Location>();
+        int[] dirs =
+            { Location.LEFT, Location.RIGHT };
+        for (Location loc : getLocationsInDirections(dirs))
+            if (getGrid().get(loc) == null)
+                locs.add(loc);
+
+        return locs;
+    }
+}

@@ -1,0 +1,80 @@
+package unboundedGrid2;
+
+import java.util.ArrayList;
+
+import info.gridworld.grid.AbstractGrid;
+import info.gridworld.grid.Location;
+import sparseGrid.SparseGridNode;
+
+// We define this UnBoundedGrid to be a square
+public class UnboundedGrid2<E> extends AbstractGrid<E> {
+	// We use occupantArray to store item
+	private Object[][] occupantArray;
+	// The dimension of the occupantArray
+	private int dim;
+	
+	// Constructor
+	public UnboundedGrid2() {
+		// Initialize the gird to be 16 x 16
+		dim = 16;
+		occupantArray = new Object[dim][dim];
+	}
+	
+	
+	
+	@Override
+	public E get(Location arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	// For the grid is unbounded, so we can't get the numcols and the numrows
+	@Override
+	public int getNumCols() {
+		return -1;
+	}
+	@Override
+	public int getNumRows() {
+		return -1;
+	}
+
+	@Override
+	public ArrayList<Location> getOccupiedLocations() {
+ArrayList<Location> theLocations = new ArrayList<Location>();
+		
+		// Use the 'for' to travel the array
+		for (int row = 0; row < getNumRows(); row++) {
+			SparseGridNode tempPtr = occupantArray[row];
+			
+			// Search the link list
+			while (tempPtr != null) {
+				Location tempLocation = new Location(row, tempPtr.getColumn());
+				
+				// Add the valid location to array
+			    theLocations.add(tempLocation);
+			    tempPtr = tempPtr.getNext();
+			}
+		}
+		
+		return theLocations;
+	}
+
+	// For the grid is unbounded, so we just need to ensure the row and the col are greater than 0
+	@Override
+	public boolean isValid(Location loc) {
+		return loc.getRow() >= 0 && loc.getCol() >= 0;
+	}
+
+	@Override
+	public E put(Location arg0, E arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public E remove(Location arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

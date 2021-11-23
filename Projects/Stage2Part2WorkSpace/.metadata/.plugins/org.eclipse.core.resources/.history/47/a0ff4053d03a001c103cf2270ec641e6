@@ -1,0 +1,14 @@
+package dancingBug;
+
+
+
+public class DancingBug {
+	private int steps;
+    private int sideLength;
+    
+    public DancngBug(int length)
+    {
+        steps = 0;
+        sideLength = length;
+    }
+}

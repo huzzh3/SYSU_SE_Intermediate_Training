@@ -1,0 +1,9 @@
+package quickCrab;
+
+public class QuickCrab extends CrabCritter {
+	
+	// Constructor
+	public QuickCrab() {
+		setColor(Color.BLUE);
+	}
+}

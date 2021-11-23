@@ -1,0 +1,25 @@
+
+p
+java:S1854"8Remove this useless assignment to local variable "rock".(ÔÁ³¼şÿÿÿÿ8åáîÎ/Hì
+RMAJORZ
+CODE_SMELL
+a
+java:S1481")Remove this unused "rock" local variable.(ÔÁ³¼şÿÿÿÿ8åáîÎ/Hñ
+RMINORZ
+CODE_SMELL
+c
+java:S1481"+Remove this unused "flower" local variable.(Ìè÷áúÿÿÿÿ8–õ“‚Î/Hí
+RMINORZ
+CODE_SMELL
+b
+java:S1481"*Remove this unused "peter" local variable.(šÇèşÿÿÿÿ8îÃÇÎ/Hû
+RMINORZ
+CODE_SMELL
+r
+java:S1854":Remove this useless assignment to local variable "flower".(Ìè÷áúÿÿÿÿ8–õ“‚Î/Hó
+RMAJORZ
+CODE_SMELL
+q
+java:S1854"9Remove this useless assignment to local variable "peter".(šÇèşÿÿÿÿ8îÃÇÎ/Hú
+RMAJORZ
+CODE_SMELL

@@ -1,0 +1,7 @@
+package circleBug;
+
+import info.gridworld.actor.Bug;
+
+public class CircleBug {
+
+}

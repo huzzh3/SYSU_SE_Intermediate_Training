@@ -1,0 +1,30 @@
+package zBug;
+
+import info.gridworld.actor.Bug;
+
+public class ZBug extends Bug {
+	private int steps;
+	private int sideLength;
+	private int counter;
+	
+	public ZBug(int length) {
+		steps      = 0;
+		sideLength = length;
+		counter    = 0;
+		
+		this.setDirection(2);
+	}
+	
+	public void act() {
+		if (steps < sideLength && canMove()) {
+            move();
+            steps++;
+        }
+		else if (steps == sideLength && canMove()) {
+			turn();
+			turn();
+			turn();
+		}
+	}
+	
+}

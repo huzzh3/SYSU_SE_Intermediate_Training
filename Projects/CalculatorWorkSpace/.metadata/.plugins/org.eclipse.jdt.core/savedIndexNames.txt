@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+/home/arnohu/code/Java/CalculatorWorkSpace/.metadata/.plugins/org.eclipse.jdt.core
+2202939237.index
+262125645.index
+4269138150.index
+2367636437.index
+1222714001.index
+2864847943.index
+825353288.index
+2858760377.index
+267402727.index
+560852023.index
+646308851.index
+4132254105.index
+1071188696.index
+1928710629.index
+2261819385.index
+1866305599.index

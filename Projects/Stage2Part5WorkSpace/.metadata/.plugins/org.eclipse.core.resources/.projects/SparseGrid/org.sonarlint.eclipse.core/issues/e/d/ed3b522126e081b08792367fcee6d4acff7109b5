@@ -1,0 +1,13 @@
+
+Ö
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö˛ê¨HßRMINORZ
+CODE_SMELL
+x
+java:S1192J"JDefine a constant instead of duplicating this literal "Location " 3 times.(ç˜›TH©RCRITICALZ
+CODE_SMELL
+}
+java:S1192J"ODefine a constant instead of duplicating this literal " is not valid." 3 times.(ç˜›TH≠RCRITICALZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.H±RMINORZ
+CODE_SMELL

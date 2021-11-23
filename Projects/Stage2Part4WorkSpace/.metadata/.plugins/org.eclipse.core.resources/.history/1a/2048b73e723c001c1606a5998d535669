@@ -1,0 +1,8 @@
+package blusterCritter;
+
+import info.gridworld.actor.Critter;
+
+public class BlusterCritterRunner  {
+	
+
+}

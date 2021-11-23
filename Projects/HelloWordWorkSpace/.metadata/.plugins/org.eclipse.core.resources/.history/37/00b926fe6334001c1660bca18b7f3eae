@@ -1,0 +1,74 @@
+<project name="HelloWorld" basedir="." default="main">
+	
+	<property name="src.dir" value="src"/>
+	
+	<property name="build.dir" value="build"/>
+	<property name="classes.dir" value="${build.dir}/classes"/>
+	<property name="jar.dir" value="${build.dir}/jar"/>
+	
+	<property name="lib.dir" value="lib"/>
+	
+	<property name="reports.dir" value="reports"/>
+	
+	<property name="main-class" value="helloWorld.HelloWorld"/>
+	
+	<target name="clean">
+		<delete dir="${build.dir}"/>
+		<delete dir="${lib.dir}"/>
+		<delete dir="${reports.dir}"></delete>
+	</target>
+	
+	<target name="create">
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${lib.dir}"/>
+		<mkdir dir="${reports.dir}"/>
+	</target>
+	
+	<target name="copy" depends="create">
+		<copy overwrite="true" todir="lib">
+			<fileset dir="/snap/eclipse/48/plugins/org.junit_4.12.0.v201504281640" includes="junit.jar"></fileset>
+		</copy>
+		<copy overwrite="true" todir="lib">
+			<fileset dir="/snap/eclipse/48/plugins" includes="*.jar"></fileset>
+		</copy>
+	</target>
+	
+	<path id="classpath">
+		<path>
+			<fileset dir="${lib.dir}" includes="*.jar"></fileset>
+		</path>
+		<pathelement location="${src.dir}"></pathelement>
+		<pathelement location="${classes.dir}"></pathelement>
+	</path>
+	
+	
+	<target name="compile" depends="copy">
+		<mkdir dir="${classes.dir}"/>
+		
+		<javac classpathref="classpath" includeantruntime="true" srcdir="${src.dir}" destdir="${classes.dir}"/>
+	</target>
+	
+	<target name="jar" depends="compile">
+		<mkdir dir="${jar.dir}"/>
+		<jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+			<manifest>
+				<attribute name="Main-Class" value="${main-class}"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="run" depends="jar">
+		<java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
+		
+		<junit>
+			<classpath refid="classpath"></classpath>
+			<formatter type="brief" usefile="false"/>
+			<test name="helloWorld.HelloWorldTest"></test>
+		</junit>
+	</target>
+	
+	<target name="clean-build" depends="clean,jar"/>
+	
+	<target name="main" depends="clean,run"/>
+	
+</project>

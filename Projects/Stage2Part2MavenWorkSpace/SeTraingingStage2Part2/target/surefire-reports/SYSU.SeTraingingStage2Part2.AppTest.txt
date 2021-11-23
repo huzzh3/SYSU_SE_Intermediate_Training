@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: SYSU.SeTraingingStage2Part2.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in SYSU.SeTraingingStage2Part2.AppTest

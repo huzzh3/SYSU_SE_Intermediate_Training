@@ -1,0 +1,12 @@
+
+Œ
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(šş¬8í·°ÌÎ/HşRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï§®âıÿÿÿÿH„RMINORZ
+CODE_SMELL
+
+java:S3012‚"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ËÔ©Ç8êÕŞÌÎ/H‘RMINORZ
+CODE_SMELL
+i
+java:S1128"6Remove this unused import 'sparseGrid.SparseGridNode'.(ô»äŞ8êÕŞÌÎ/H’RMINORZ
+CODE_SMELL

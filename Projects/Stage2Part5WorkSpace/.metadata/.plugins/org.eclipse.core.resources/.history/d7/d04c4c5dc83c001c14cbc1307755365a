@@ -1,0 +1,9 @@
+package sparseGrid;
+
+// The node store the information of the occupant object
+public class SparseGridNode {
+	// You can find the node definition from the matrix or github
+	private Object occupant;
+	private int col;
+	private SparseGridNode next;
+}

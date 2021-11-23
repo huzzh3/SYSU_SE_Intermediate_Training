@@ -1,0 +1,7 @@
+package imageProcessing;
+
+import imagereader.IImageProcessor;
+
+public class ImplementImageProcessor implements IImageProcessor {
+
+}

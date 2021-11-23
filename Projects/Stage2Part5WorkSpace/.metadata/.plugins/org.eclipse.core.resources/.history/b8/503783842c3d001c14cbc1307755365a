@@ -1,0 +1,7 @@
+package sparseGridMap;
+
+import info.gridworld.grid.AbstractGrid;
+
+public class SparseBoundedGrid<E> extends AbstractGrid<E> {
+
+}

@@ -1,0 +1,10 @@
+package imageProcessing;
+
+//ImagaReaderRunner.java
+import imagereader.IImageIO;
+import imagereader.IImageProcessor;
+import imagereader.Runner;
+
+public class ImageReaderRunner {
+
+}

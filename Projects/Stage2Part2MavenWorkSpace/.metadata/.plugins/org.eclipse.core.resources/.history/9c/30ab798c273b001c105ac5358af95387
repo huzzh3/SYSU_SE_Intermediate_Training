@@ -1,0 +1,30 @@
+package circleBug;
+
+import info.gridworld.actor.Bug;
+
+public class CircleBug extends Bug {
+	private int steps;
+	private int sideLength;
+	
+	// You need to initial the CircleBug
+	public CircleBug(int length) {
+		// First the steps need to be 0
+		// sideLength is the length you want to move once
+		steps = 0;
+		sideLength = length;
+	}
+	
+	public void act()
+    {
+        if (steps < sideLength && canMove())
+        {
+            move();
+            steps++;
+        }
+        else
+        {
+            turn();
+            steps = 0;
+        }
+    }
+}
